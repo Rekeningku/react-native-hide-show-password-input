@@ -43,8 +43,7 @@ export default class PasswordInputText extends React.Component {
         return (
             <View>
                 <TextField {...this.props}
-                           secureTextEntry={this.state.password}
-                           label="Password"/>
+                           secureTextEntry={this.state.password} />
                 <Icon style={styles.icon}
                       name={this.state.icEye}
                       size={this.props.iconSize}
